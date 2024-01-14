@@ -3,7 +3,7 @@ const cors = require('cors');
 const OpenAI = require('openai');
 const app = express();
 
-const openai = new OpenAI({ apiKey: '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', dangerouslyAllowBrowser: true }); // Replace 'API_KEY' with actual OpenAI API key
+const openai = new OpenAI({ apiKey: 'API_KEY', dangerouslyAllowBrowser: true }); // Replace 'API_KEY' with actual OpenAI API key
 
 app.use(cors());  
 
